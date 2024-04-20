@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34714.143
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BP.Api", "BP.Api\BP.Api.csproj", "{4F86D876-8B3F-4CFC-ACF7-1E17988AD975}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BP.Models", "BP.Models\BP.Models.csproj", "{9038E90A-7ADD-45B4-8A77-20DFA75C1281}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BP.Data.Model", "BP.Data.Model\BP.Data.Model.csproj", "{58B55815-CA1E-408C-B95D-AE0226956139}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4F86D876-8B3F-4CFC-ACF7-1E17988AD975}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F86D876-8B3F-4CFC-ACF7-1E17988AD975}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F86D876-8B3F-4CFC-ACF7-1E17988AD975}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F86D876-8B3F-4CFC-ACF7-1E17988AD975}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9038E90A-7ADD-45B4-8A77-20DFA75C1281}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9038E90A-7ADD-45B4-8A77-20DFA75C1281}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9038E90A-7ADD-45B4-8A77-20DFA75C1281}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9038E90A-7ADD-45B4-8A77-20DFA75C1281}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58B55815-CA1E-408C-B95D-AE0226956139}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58B55815-CA1E-408C-B95D-AE0226956139}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58B55815-CA1E-408C-B95D-AE0226956139}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58B55815-CA1E-408C-B95D-AE0226956139}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EB2D1112-AF90-4432-986B-BD36B8805A6F}
+	EndGlobalSection
+EndGlobal
