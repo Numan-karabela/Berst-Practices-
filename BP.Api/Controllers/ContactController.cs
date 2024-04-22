@@ -15,11 +15,20 @@ namespace BP.Api.Controllers
         {
             _contactService = contactService;
         }
+        [ResponseCache(Duration =10)]//Aynı Id sahip veri geldiğinden Keş'den almasını istiyoruz.
         [HttpGet("{id}")]
         public ContactDVO contactDVO(int id)
         {
             return _contactService.GetContactDVOById(id);
 
+        }
+        [HttpPost]
+        public  ContactDVO CreateContactDVO(ContactDVO contact)
+        {
+            //create contact veriable database
+
+
+            return contact;
         }
 
     }
