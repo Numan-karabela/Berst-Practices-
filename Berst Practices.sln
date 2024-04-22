@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34714.143
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BP.Api", "BP.Api\BP.Api.csproj", "{4F86D876-8B3F-4CFC-ACF7-1E17988AD975}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BP.Api", "BP.Api\BP.Api.csproj", "{4F86D876-8B3F-4CFC-ACF7-1E17988AD975}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BP.Models", "BP.Models\BP.Models.csproj", "{9038E90A-7ADD-45B4-8A77-20DFA75C1281}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BP.Models", "BP.Models\BP.Models.csproj", "{9038E90A-7ADD-45B4-8A77-20DFA75C1281}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BP.Data.Model", "BP.Data.Model\BP.Data.Model.csproj", "{58B55815-CA1E-408C-B95D-AE0226956139}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BP.Data.Models", "BP.Data.Model\BP.Data.Models.csproj", "{58B55815-CA1E-408C-B95D-AE0226956139}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BP.Service", "BP.Service\BP.Service.csproj", "{2383E6B7-47BB-400A-A8F9-37ACB9A7CD60}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{58B55815-CA1E-408C-B95D-AE0226956139}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{58B55815-CA1E-408C-B95D-AE0226956139}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{58B55815-CA1E-408C-B95D-AE0226956139}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2383E6B7-47BB-400A-A8F9-37ACB9A7CD60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2383E6B7-47BB-400A-A8F9-37ACB9A7CD60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2383E6B7-47BB-400A-A8F9-37ACB9A7CD60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2383E6B7-47BB-400A-A8F9-37ACB9A7CD60}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
